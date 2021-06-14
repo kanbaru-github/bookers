@@ -1,0 +1,106 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+p, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+
+}
+
+p {
+  display: block;
+}
+
+h1 {
+  weight: bold;
+}
+
+table {
+  display: table;
+  border-collapse: separate;
+  box-sizing: border-box;
+  border-spacing: 2px;
+  border-color: gray;
+}
+
+thead {
+  display: table-header-group;
+  vertical-slign: middle;
+  border-color: inherit;
+}
+
+tr {
+  vertical-align: inherit;
+  border-color: inherit;
+
+}
+
+th {
+  padding-bottom: 5px;
+  display: table-cell;
+  vertical-align: inherit;
+  font-weight: bold;
+  text-align: center;
+}
+
+tbody {
+  vertical-align: middle;
+  border-color: inherit;
+}
+
+tr {
+  vertical-align: inherit;
+  border-color: inherit;
+}
+
+td {
+  padding-bottom: 7px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+h2 {
+  display: block;
+  font-weight: bold;
+}
+
+form {
+  display: block;
+}
+
+input {
+  cursor: text;
+  border: 1px inset #000;
+}
+
+
+.field, .action {
+  margin-bottom: 10px;
+}
+
+.submit {
+  user-select: none;
+  white-space: pre;
+  align-items: flex-start;
+  text-align: center;
+  backgroud-color: gray;
+  box-sizing: border-box;
+  padding: 1px 2px;
+  border: 1px outset #000;
+}
+
+.action {
+  cursor: pointer;
+}
+
+
+.form {
+  display: block;
+}
+
+.block {
+  cursor: pointer;
+}
